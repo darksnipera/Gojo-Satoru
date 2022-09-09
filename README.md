@@ -1,8 +1,8 @@
 <p align="center">
-<img src="https://telegra.ph/file/f3b2f9e862e1352d4fd94.jpg" alt="nz" width="350"/>
+<img src="https://i.ytimg.com/vi/vnZWR9h2o2A/maxresdefault.jpg" alt="nz" width="350"/>
 </p>
 
-## Gojo-Satoru
+## ITACHI-bot
 
 > <a href="https://youtu.be/W-QCp2fWRTo"><img src="https://img.shields.io/badge/Tutorial-Video-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://www.youtube.com/c/BOTINDO" /><br>
 
