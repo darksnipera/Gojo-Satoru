@@ -1757,7 +1757,7 @@ break
                             }, {
                                 quickReplyButton: {
                                     displayText: '「 القائمة 」「🗒️」◣',
-                                    id: 'اوامر'
+                                    id: 'الاوامر'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1765,7 +1765,7 @@ break
                                     id: 'owner'
                                 }
                             }]
-                      let txt = `「 غوجو ساتورو موجود 🎉 」\n\n${text}`
+                      let txt = `「 ايتاتشي موجود 🎉 」\n\n${text}`
                       GojoMdNx.send5ButImg(i, txt, GojoMdNx.user.name, global.thumb, btn)
                     }
                 reply(`「 تم  ✌ 」◣`)
@@ -1785,7 +1785,7 @@ break
                                 }
                             }, {
                                 urlButton: {
-                                    displayText: '「 قناتي 」「📍」◣', 
+                                    displayText: '「 حسابي 」「📍」◣', 
                                     url: `${myweb}`
                                 }
                             }, {
@@ -1799,7 +1799,7 @@ break
                                     id: 'owner'
                                 }
                             }]
-                      let txt = `「 غوجو ساتورو موجود 🎉」\n\n${text}`
+                      let txt = `「 ايتاتشي موجود 🎉」\n\n${text}`
                       GojoMdNx.send5ButImg(yoi, txt, GojoMdNx.user.name, global.thumb, btn)
 		}
 		reply('「 تم 🤗 」◣')
@@ -3460,12 +3460,12 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 	case 'الاوامر': case 'اوامر': {
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
-                    title: `「 مرحبا 👋🏻  」◣
-		    「 معك بوت غوجو 🤗 」◣
-		    「 افضل بوت عربي 」◣
- 「 رابط فرع التعليم على البوت」◣
-		    「https://chat.whatsapp.com/CKLmAGJo3iw5AvNM1KZee3」◣
-		    「 الي محتاج شروحات ينضم 」◣`,
+                    title: `「 موشي موش 👋🏻  」◣
+		    「 استمتع بوقتك 🤗 」◣
+		    「 مع افضل بوت 」◣
+ 「 رابط التواصل مع المالك للاقتراحات والشكاوي」◣
+		    「http://wa.me/966568319347」◣
+		    「 الي محتاج البوت او شروحات يكلمني من الرابط 」◣`,
                     description: `「 اختر قائمة من فضلك 」◣`,
                     buttonText: "「 القائمة 」◣",
                     footerText: `「 تحت الصيانة ⚙️」◣`,
@@ -3564,7 +3564,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"title": "المملكة",
 								"rows": [
 									{
-										"title": "قائمة استمارات مملكة غولد",
+										"title": "قائمة مملكة سورا",
 										"description": ".17.",
 										"rowId": `${prefix}anon`
 									}
@@ -3574,7 +3574,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"title": "نبذة",
 								"rows": [
 									{
-										"title": "تاريخ مملكة غولد",
+										"title": "تاريخ مملكة سورا",
 										"description": ".18.",
 										"rowId": `${prefix}tqtt`
 									}
@@ -3592,9 +3592,9 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
             case 'التسجhgjيل': case 'التسجيل': {
-                reply(`「 الفرع الخاص ل التعليم على البوت 」◣
+                reply(`「 الفرع الخاص لمجموعة البوت(السبام مسموح) 」◣
 
-「 _https://chat.whatsapp.com/CKLmAGJo3iw5AvNM1KZee3_ 」◣
+「 _https://chat.whatsapp.com/DIaErFyL5TF7WQS0D2wl6o_ 」◣
 
 「 نرحب بالجميع. 」◣`)
             }
