@@ -1157,7 +1157,7 @@ Please @${m.mentionedJid[0].split`@`[0]} To Type Accept/Reject`
 「اضغط اقبل اذا موافق 😂🤡」◣`
             let ments = [me, jodoh]
             let buttons = [
-                        { buttonId: '「اقبل🤗」◣', buttonText: { displayText: '「اقبل🤗」◣' }, type: 1 }
+                        { buttonId: '「ارفض بشدة🤗」◣', buttonText: { displayText: '「تبا لك🤗」◣' }, type: 1 }
                     ]
                     await GojoMdNx.sendButtonText(m.chat, buttons, jawab, GojoMdNx.user.name, m, {mentions: ments})
             }
@@ -1168,11 +1168,11 @@ Please @${m.mentionedJid[0].split`@`[0]} To Type Accept/Reject`
             let orang = member[Math.floor(Math.random() * member.length)]
             let jodoh = member[Math.floor(Math.random() * member.length)]
             let jawab = `@${orang.split('@')[0]} ❤️ @${jodoh.split('@')[0]}
-	    「 معلش زوجناكم لأنكم تصلحون لبعض 🤡 」◣
-	    「 الي يشوفهم مناسبين لبعض زيي يضغط يب 🤡 」◣`
+	    「 معلش زوجناكم بالحميرلانكم لا تصلحون لبعض 🤡 」◣
+	    「 رايكم؟ 🤡 」◣`
             let menst = [orang, jodoh]
             let buttons = [
-                        { buttonId: '「 يب هم مناسبين لبعض😂🤡 」◣', buttonText: { displayText: '「 يب هم مناسبين لبعض😂🤡 」◣' }, type: 1 }
+                        { buttonId: '「 لا للكلاب افضل😂🤡 」◣', buttonText: { displayText: '「 يب هم انسب للحمير😂🤡 」◣' }, type: 1 }
                     ]
                     await GojoMdNx.sendButtonText(m.chat, buttons, jawab, GojoMdNx.user.name, m, {mentions: menst})
             }
